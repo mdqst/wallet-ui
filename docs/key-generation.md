@@ -57,7 +57,7 @@ Password Manager Entry = concact(Cipher, Random Salt)
 
 ## Account recovery
 
-To ensure the user can still access their account under the above assumptions, a recovery kit is required. This kit contains infromation needed to recover the Account Private Key and regain spending access on the account.
+To ensure the user can still access their account under the above assumptions, a recovery kit is required. This kit contains information needed to recover the Account Private Key and regain spending access on the account.
 
 ## Recovering the Spending Private Key
 
@@ -117,7 +117,7 @@ Important this information can be used to recover you Aztec Account.
 
 ## Scenarios
 
-### Lost device / no access to password manager / can’t remeber user password.
+### Lost device / no access to password manager / can’t remember user password.
 
 Here the user must posses their recovery kit and have access to their Ethereum Private Key. If they posses this, they can do the following.
 
@@ -138,7 +138,7 @@ It may be worth considering encrypting the Spending `Private Key` and `Account P
 
 ### Attacker tricks the user into generating their Recovery Private Key.
 
-Without the `Recovery Kit`, the attacker can’t use this in any attack. However there is a phising attack here that the attacker could trick the user into “recovering” on an insecure website.
+Without the `Recovery Kit`, the attacker can’t use this in any attack. However there is a phishing attack here that the attacker could trick the user into “recovering” on an insecure website.
 
 To combat this, the recovery kit should explictly detail the correct URL to recover via e.g `wallet.aztec.network/recovery`.
 
